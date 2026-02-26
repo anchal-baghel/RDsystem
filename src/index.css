@@ -1,0 +1,38 @@
+/* Action buttons base */
+.action-btn {
+  transition: all 0.2s ease-in-out;
+  font-size: 14px;
+}
+
+/* Edit hover */
+.edit-btn:hover {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+  transform: scale(1.1);
+}
+
+/* Delete hover */
+.delete-btn:hover {
+  background-color: #dc3545 !important;
+  color: #fff !important;
+  transform: scale(1.1);
+}
+
+/* Table row hover (bonus) */
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+.passbook-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(13, 110, 253, 0.35);
+}
+
+.passbook-btn:active {
+  transform: scale(0.97);
+}
+
+.passbook-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
